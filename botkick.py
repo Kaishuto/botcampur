@@ -126,8 +126,8 @@ def SEND_MESSAGE(op):
             if msg.contentType == 0:
                 #if "gname:" in msg.text:
 if msg.text == "set":
-  sendMessage(msg.to, "udah saya set gan \n「tes」nih list yg read")
-             try:
+                 sendMessage(msg.to, "udah saya set gan \n「tes」nih list yg read")
+                    try:
                         del wait['readPoint'][msg.to]
                         del wait['readMember'][msg.to]
                     except:
